@@ -9,6 +9,6 @@ USER gitpod
 #
 # More information: https://www.gitpod.io/docs/config-docker/
 
-RUN apt-get -q update &&  \
-    apt-get install -yq libvorbis-dev && \
-    rm -rf /var/lib/apt/lists/*
+RUN sudo apt-get -q update &&  \
+    sudo apt-get install -yq libvorbis-dev && \
+    sudo rm -rf /var/lib/apt/lists/*
